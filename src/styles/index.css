@@ -13,6 +13,10 @@ code {
     monospace;
 }
 
-button {
+button, nav {
   cursor: pointer;
+}
+
+.zin {
+  z-index: 1;
 }

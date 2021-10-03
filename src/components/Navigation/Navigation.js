@@ -5,7 +5,7 @@ import './Navigation.css';
 const Navigation = () => {
     return (
         <nav>
-            <p className="f3 link dim black underline pa3">Sign Out</p>
+            <p className="f3 link dim black underline pa3 zin">Sign Out</p>
         </nav>
     );
 }

@@ -10,9 +10,9 @@ const ImageLinkForm = () => {
         {"Detect faces in your pictures. Give it a try!"}
       </p>
       <div className="center">
-        <div className="center form pa4 br3 shadow-5 carbon">
-          <input className="f4 pa2 w-70 center" type="text" />
-          <button className="w-30 grow f4 link ph3 pv2 dib white bg-light-purple">
+        <div className="center form pa4 br3 shadow-5 carbon zin">
+          <input className="f4 pa2 w-70 center zin" type="text" />
+          <button className="w-30 grow f4 link ph3 pv2 dib white bg-light-purple zin">
             Detect
           </button>
         </div>
