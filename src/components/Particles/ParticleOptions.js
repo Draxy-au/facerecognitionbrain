@@ -1,9 +1,5 @@
 const particleOptions={
-    background: {
-      color: {
-        value: "#0d47a1"
-      }
-    },
+    
     fpsLimit: 60,
     interactivity: {
       detectsOn: "canvas",
