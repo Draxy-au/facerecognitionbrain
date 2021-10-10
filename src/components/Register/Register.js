@@ -20,7 +20,6 @@ class Register extends Component {
     this.setState({ name: event.target.value });
   };
   onSubmitSignIn = () => {
-    console.log(this.state);
     fetch("http://localhost:3000/register", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -32,7 +31,7 @@ class Register extends Component {
     })
       .then((response) => response.json())
       .then((user) => {
-        if (user) {
+        if (user.id) {
           this.props.loadUser(user);
           this.props.onRouteChange("home");
         }
